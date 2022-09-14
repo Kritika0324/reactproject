@@ -1,12 +1,12 @@
 import React from 'react'
 
-const TabOptions = () => {
+const TabOptions = ({ activeTab, setActiveTab }) => {
     return (
         <div>
            This is tabOptions
         </div>
-    )
+    );
     
-}
+};
 
-export default TabOptions
+export default TabOptions;
